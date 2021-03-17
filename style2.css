@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background : url('./Images/ravioli3.jpg');
+}
+
+@font-face {
+    font-family: 'italiannoregular';
+    src: url('/home/anne/Documents/LesCuistos/font/italianno-regular-webfont.woff2') format('woff2'),
+         url('/home/anne/Documents/LesCuistos/font/italianno-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.biggest-box {
+  background-color: #ffcb69;
+  padding: 40px;
+  width: 500px;
+  margin-left: 100px;
+}
+
+.medium-box-one {
+  background-color: #F7F06D;
+  color: black;
+  width: 400px;
+  padding: 20px;
+}
+.medium-box-one img {
+  width: 55%;
+}
+
+.medium-box-one h1 {
+  font-family: 'italiannoregular', Arial, sans-serif;
+  font-size: 45px;
+}
+
+.medium-box-bis {
+  margin-top: 30px;
+  background-color: #F7F06D;
+  color: black;
+  width: 400px;
+  padding: 40px;
+  font-size: 15px;
+}
+
+.medium-box-bis img {
+  width: 85%;
+}
+
+.medium-box-two {
+  margin-top: 40px;
+  background-color: #F7F06D;
+  color: black;
+  width: 400px;
+  padding: 10px;
+  font-family: 'italiannoregular', arial, sans-serif;
+  font-size: 25px;
+}
+
+.medium-box-three {
+  margin-top: 30px;
+  background-color: white;
+  color: black;
+  width: 400px;
+  padding: 20px;
+  font-size: 15px;
+
+}
+
+.medium-box-bis-bis img {
+  width: 70%;
+}
+
+.medium-box-three img {
+  width: 90%;
+  height: 90%;
+}
+
+.medium-box-three h2 {
+  font-family: 'italiannoregular', arial, serif;
+  font-size: 45px;
+}
+
+.medium-box-three p {
+  display: flex;
+  font-size: 15px;
+  font-family: Arial, tahoma, sans-serif;
+  text-align: center;
+}
